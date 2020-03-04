@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: #fff9c0;
+    box-shadow: 0 0 10px #46464661;
+}
+nav{}
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #2f2f2f;
+    text-decoration: none;
+    display: block;
+    padding: 12px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav ul li a img{
+    width: 150px;
+}
+
+.container{
+    display: flex;
+    background-color: #fffcdd;
+}
+.l-image{
+    flex-basis: 40%;
+    max-width: 40%;
+}
+
+.form-section{
+    padding: 60px 0px;
+    flex-basis: 60%;
+    max-width: 60%;
+    background-color: #fffef3;
+    margin: auto;
+}
+.form-box{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    color: #941211;
+}
+p{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+form{
+    text-align: left;
+    margin-top: 30px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"]
+{
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #fff9c0;
+    margin-bottom: 8px;
+    color: #e74948;
+    font-size: 14px;
+}
+
+input[type="file"]
+{
+    margin-bottom: 0px;
+}
+
+label{
+    font-size: 16px;
+    font-style: italic;
+    margin-right: 12px;
+}
+span{
+    display: block;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+label b{
+    font-size: 18px;
+    display: block;
+    margin-top: 16px;
+    font-style: normal;
+}
+
+input[type="submit"]
+{
+    
+display: block;
+    
+padding: 5px 10px;
+    
+font-size: 14px;
+    
+background-color: #fff9c0;
+    
+border: 2px solid #e8e8e8;
+    
+margin-top: 14px;
+
+cursor: pointer;
+}
+
+input[type="submit"]:hover{
+
+background-color: transparent;
+
+}
